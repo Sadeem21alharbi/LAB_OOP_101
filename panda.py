@@ -6,7 +6,12 @@ class Panda:
         self.color = color
 
     def eat(self):
-        print(self.name, "is eating")
+        print(self.name, "is eating bamboo")
 
     def sleep(self):
         print(self.name, "is sleeping")
+
+    def description(self):
+        print("Your panda's information: ")
+        info = f"panda's name is : {self.name}, age is : {self.age}, weight is : {self.weight}, color: {self.color}" 
+        print(info)

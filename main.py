@@ -13,10 +13,5 @@ print(panda4.name)
 
 
 panda1.eat()
-panda1.sleep()
-panda2.eat()
 panda2.sleep()
-panda3.eat()
-panda3.sleep()
-panda4.eat()
-panda4.sleep()
+panda3.description()
